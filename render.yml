@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: face-api
+    env: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 8000
